@@ -1,7 +1,7 @@
 # Twitter Coronavirus Analysis 
 ### By My Nguyen for CSCI143 at CMC  
     
-Brief Overview: Analysis of tweets to track '#coronavirus' for 2020. 
+Brief Overview: Analysis of tweets to track '#coronavirus' for 2020. Made using twitter tweet data, python, and shell scripts. Made strictly in the shell. 
 
 Number of times #coronavirus was tweeted vs Country Origin of tweet over 2020 
 ![alt text](/output_plot_country.png)
