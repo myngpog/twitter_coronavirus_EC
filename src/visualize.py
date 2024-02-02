@@ -12,6 +12,10 @@ args = parser.parse_args()
 import os
 import json
 from collections import Counter,defaultdict
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
 
 # open the input path
 with open(args.input_path) as f:
@@ -24,5 +28,20 @@ if args.percent:
 
 # print the count values
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
-for k,v in items:
+
+for k,v in items[:10]:
     print(k,':',v)
+    plt.bar(k, v)
+
+# Plot the thing
+label_suffix = 'Country' if args.input_path.endswith('.country') else 'Language'
+key_base_name = args.key.lstrip('#')
+
+plt.xlabel(f'{label_suffix}')
+plt.ylabel('Counts')
+plt.title(f'Data Visualization for {args.key} - {label_suffix}')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+
+output_filename = f'output_plot_{key_base_name.lower()}_{label_suffix.lower()}.png'
+plt.savefig(output_filename)
