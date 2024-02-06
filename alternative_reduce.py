@@ -39,5 +39,5 @@ plt.title('Hashtag Count over the Year')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 
-output_filename = 'genshin_hashtag_count.png'
+output_filename = 'covid_hashtag_count.png'
 plt.savefig(output_filename)
