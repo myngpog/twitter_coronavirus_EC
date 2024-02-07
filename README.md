@@ -1,5 +1,5 @@
 # EC for twitter coronavirus
 
-Brief Overview: I chose to look at the #covid19.
+Brief Overview: I chose to look at the #valorant.
 
-The reason why I chose to look at #covid19 is because back then (and I guess now), covid19 is a more popular/widely used term thatn coronavirus; at least amongst the youth in SoCal in my opinion. Although I don't think this will neecessarily change a lot of things, I do think it is an interesting term, related to our og term, to look into.
+The reason why I looked at #valorant is that during quarantine, it was (one of) the most popular game online and everyone I knew was playing it or at least have heard of it. I believe that the unique circumstance of the pandemic made it more popular than it was originally intended to be; which was why I think it would be interesting to look at the hashtag count for it over the year of 2020; peak pandemic time.
